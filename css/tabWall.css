@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(#91bbd9,#d3b3a7) no-repeat;
+}
+
+.container {
+  display: flex;
+  margin-top: 200px;
+  width: 1000px;
+  height: 800px;
+  box-shadow: 0 0 4px #666;
+}
+
+.comment {
+  width: 500px;
+  background-color: #fff;
+}
+
+.comment .comment-tag {
+  box-sizing: border-box;
+  display: flex;
+  width: 500px;
+  padding: 30px 5px 30px 20px;
+  color: #6e7071;
+  user-select: none;
+}
+
+.comment .comment-tag p {
+  color: #e0a018;
+  margin-right: 5px;
+}
+
+.comment .comment-tag span {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.comment .comment-content {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  padding: 0 30px;
+  color: #717176;
+}
+
+.comment .comment-content div {
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 10px;
+  margin-right: 20px;
+  padding: 4px;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 2px;
+  user-select: none;
+}
+
+.comment .comment-content .del {
+  cursor: pointer;
+}
+
+.content {
+  width: 500px;
+  background-color: rgba(0,0,0,.2);
+}
+
+.content .content-tag {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 10px 20px 10px;
+  color: #fff;
+  user-select: none;
+}
+
+.content span {
+  box-sizing: border-box;
+  height: 30px;
+  margin: 5px;
+  padding: 2px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  line-height: 26px;
+  text-align: center;
+}
